@@ -19,15 +19,15 @@ $(document).ready(function(){
         var element = ericMet1[i];
         // console.log(ericMet1[i]);
 
-        //comparando el nombre en comun con ericMet
+        //comparando el asesino en comun con ericMet
         if(terryMet3.includes(element)) { //si encuentra el mismo elemento de ericMet1 igual dentro de terryMet        
             
             //y si encontramos relacion con otras 2 victimas de la lista
-            if (jenMet2.includes(element) === terryMet3.includes(element))
-                console.log(`The killer is ${element} and the next victim is ` + names[1]);
+            if (laraMet4.includes(element) === terryMet3.includes(element))
+                console.log(`The killer is ${element} and the next victim is ` + names[3]); //item 3 is Lara
 
-            else if ((laraMet4.includes(element) === terryMet3.includes(element)))
-                console.log(`The killer is ${element} and the next victim is ` + names[3]);
+            else if ((jenMet2.includes(element) === terryMet3.includes(element)))
+                console.log(`The killer is ${element} and the next victim is ` + names[1]); //item 1 is Jane
         }
     }
 });
